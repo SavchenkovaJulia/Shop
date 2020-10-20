@@ -1,1 +1,7 @@
-<p>first-component works!</p>
+<mat-card class="first-component-card">
+  <p>Name: {{ name }}</p>
+  <p>Description: {{ description }}</p>
+  <p>Price: {{ price }}</p>
+  <p>Is Available: {{ isAvailable || "Out of Stock" }}</p>
+  <p>This Category: {{category}}</p>
+</mat-card>
