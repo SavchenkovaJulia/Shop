@@ -18,6 +18,7 @@ export class FirstComponentComponent implements OnInit {
   price: number;
   isAvailable: boolean;
   category: any;
+  practices: Array<string>;
 
   constructor() { }
 
@@ -27,6 +28,7 @@ export class FirstComponentComponent implements OnInit {
     this.price = 350;
     this.isAvailable = false;
     this.category = Category.DOC;
+    this.practices = ['Biodynamically Grown', 'Low-Intervention', 'Natural Wine', 'Vegan'];
   }
 
 }

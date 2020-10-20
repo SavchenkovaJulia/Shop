@@ -4,4 +4,5 @@
   <p>Price: {{ price }}</p>
   <p>Is Available: {{ isAvailable || "Out of Stock" }}</p>
   <p>This Category: {{category}}</p>
+  <p>Vineyard/Cellar Practices: <span *ngFor="let item of practices">{{item}}</span></p>
 </mat-card>
